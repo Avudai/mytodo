@@ -1,0 +1,50 @@
+body {
+ text-align:center
+}
+
+.todo {
+  min-height: 400px;
+  width: 400px;
+  overflow-y: scroll;
+  border-radius: 15px;
+}
+
+#todoForm input {
+  width: 300px;
+  height: 50px;
+  font-size: 18px;
+  border: 1px solid;
+}
+
+#todoForm input::placeholder {
+  font-size: 18px;
+}
+
+#todoForm button {
+  cursor: pointer;
+  float: right;
+  margin-top: 16px;
+}
+
+.quote-area {
+  text-align: center;
+}
+
+.quote-body {
+  padding: 12px;
+  background-color: #efefef;
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+.header {
+  padding: 12px;
+  background-color: #efefef;
+  border-radius: 8px;
+  font-size: 22px;
+  border: 1px solid;
+}
+
+.form-group {
+  margin-top: 30px;
+}
